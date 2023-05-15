@@ -1,0 +1,256 @@
+.payment{
+    height: 900px;
+    background-image: linear-gradient(60deg, rgba(12, 12, 12, 1), rgb(0, 25, 66));
+    /* background-repeat:no-repeat; */
+    /* background-size:100% 100vh; */
+    width: 100%;
+   
+}
+.payContainer{
+    display: flex;
+    margin: 50px 100px;
+    gap: 125px;
+}
+.leftDesc{
+    flex: 3;
+    /* margin: 50px 50px; */
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    
+}
+h1 span{
+    margin: 0 10px;
+}
+.rightblock{
+    border: 2px solid white;
+    /* margin: 0 50px; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    row-gap: 20px;
+    border-radius: 5px;
+   
+}
+#i1{
+    margin: 0 5px;
+}
+/* li{
+    list-style: none;
+} */
+
+/* block */
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 ;
+    
+}
+.haha{
+    display: flex;
+    flex-direction: column;
+}
+.no{
+    background-color: #0096FF;
+    border-radius: 100%;
+    border: none;
+    padding: 5px ;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+hr{
+    margin: 0 15px;
+   
+}
+.amt{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 20px;
+    
+}
+.xy{
+    border: 2px solid grey;
+    margin-top: 30px;
+    border-radius: 4px;
+    /* max-width: 700px; */
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+.left{
+    display: flex;
+    gap: 20px;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* .icons{
+    display: flex;
+    gap: 30px;
+  
+} */
+.btns{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    gap: 10px;
+}
+.btns button{
+    padding: 3.5px 15px;
+}
+#cancel{
+    border: 2px solid #F77171;
+    background-color: transparent;
+    color: #F77171;
+    border-radius: 4px;
+    font-size: 10px;
+    height: 33px;
+    width: 100%;
+   
+}
+#pay{
+    background-color: #47BA68;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+    font-size: 10px;
+    height: 33px;
+}
+
+.plan1{
+    border: 2px solid #BEBEBE;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin:10px 15px;
+    padding: 0 5px
+    
+    
+}
+.pleft{
+    display: flex;
+    align-items: center;
+
+}
+.pright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#p12{
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+#total{
+    font-size: 10px;
+}
+#perMo{
+    font-size: 12px;
+}
+#month{
+    font-size: 9px;
+}
+
+#razor{
+    margin: 2px 0 18px 15px;
+}
+
+/* offer */
+/* .bg{
+    background-color: #ffffff;
+    opacity: .2;
+}
+.bg div{
+    font-weight: bold;
+  color: #000000;
+} */
+.offer{
+    display: flex;
+    border: 2px solid #DE4313;
+    border-radius: 5px;
+    background-color: rgb(247, 113, 113, 0.2);
+    height: 50px;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-between;
+    
+}
+.offerL{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    
+}
+#offerTxt{
+    color: #DE4313;
+    font-size: 14px;
+    
+}
+#offerValid{
+    font-size: 12px;
+    color: #DE4313;
+}
+.offerR{
+    font-size: 14px;
+    margin-right: 5px;
+}
+#totalAmt{
+    font-size: 16px;
+}
+#blue{
+    color: #0096FF;
+}
+
+#mainI{
+    margin-right: 30px;
+}
+.iconWrap{
+    margin-top: 50px;
+}
+#icons{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+#sign{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* utils */
+
+
+#strikeOff{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+#disable{
+    background-color: #BEBEBE;
+    opacity: .3;
+    border:solid #BEBEBE;
+} 
